@@ -1,0 +1,9 @@
+button {
+  width: 100px;
+  height: 100px;
+}
+
+button#longbutton {
+  height: 400px !important;
+}
+/*# sourceMappingURL=buttons-panel.component.css.map */

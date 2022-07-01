@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAIhB;;AAND,AAGI,MAHE,AAGD,WAAW,CAAA;EACR,MAAM,EAAE,gBAAgB;CAC3B",
+    "sources": [
+        "buttons-panel.component.scss"
+    ],
+    "names": [],
+    "file": "buttons-panel.component.css"
+}

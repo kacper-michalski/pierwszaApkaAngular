@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=app.component.css.map */
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=app.component.css.map */
