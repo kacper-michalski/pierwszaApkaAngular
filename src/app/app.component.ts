@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'pierwszaApkaAngular';
 }
+var input = document.getElementById('result') as HTMLInputElement | null;
+var value=input?.value;
+console.log(value);
+if (input!= null) {
+  console.log(input.value)
+}

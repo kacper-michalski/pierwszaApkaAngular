@@ -11,8 +11,18 @@ export class ButtonsPanelComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  operation(){
-    console.log("test");
+  operation(sign: string){
+    (<HTMLInputElement>document.getElementById("result")).value+=sign;
   }
-
+  clear(){
+    (<HTMLInputElement>document.getElementById("result")).value="";
+  }
+  result(){
+    var inputValue = (<HTMLInputElement>document.getElementById("result")).value;
+    var func = function(text: string) {
+      return (new Function( 'return (' + text + ')' )());
+    }
+    var r=func(inputValue);
+    (<HTMLInputElement>document.getElementById("result")).value=r;
+  }
 }
