@@ -3,4 +3,24 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+input {
+  width: 503px;
+  height: 100px;
+  border: none;
+  background-color: #0077B6;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 109px;
+  text-align: right;
+  color: #90E0EF;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid white;
+  background: #023E8A;
+}
 /*# sourceMappingURL=result.component.css.map */

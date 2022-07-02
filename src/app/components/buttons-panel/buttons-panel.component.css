@@ -1,9 +1,33 @@
 button {
-  width: 100px;
-  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 125px;
+  height: 125px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150px;
+  color: #0077B6;
+  border: none;
+  background-color: #90E0EF;
 }
 
 button#longbutton {
-  height: 400px !important;
+  height: 503px !important;
+}
+
+button:hover {
+  background-color: #48CAE4;
+  border: 2px solid white;
+}
+
+table, th, td {
+  border-spacing: 1px;
 }
 /*# sourceMappingURL=buttons-panel.component.css.map */

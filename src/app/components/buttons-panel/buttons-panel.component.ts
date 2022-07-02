@@ -13,6 +13,7 @@ export class ButtonsPanelComponent implements OnInit {
   }
   operation(sign: string){
     (<HTMLInputElement>document.getElementById("result")).value+=sign;
+    (<HTMLInputElement>document.getElementById("sign")).disabled=true;
   }
   clear(){
     (<HTMLInputElement>document.getElementById("result")).value="";
